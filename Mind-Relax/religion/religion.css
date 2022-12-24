@@ -155,6 +155,10 @@ body{
 .religion-section-col1{
     max-width: 50rem;
 }
+.religion-section-col2{
+    margin-top: -1rem;
+
+}
 
 .religion-section-col2 img {
     width: 40%;
@@ -180,18 +184,17 @@ body{
     display: block;
     margin: auto;
     width: 65%;
+    margin-top: 15rem;
+    
 }
 
 .religion-section2 .religion-section-col1{
     max-width: 30rem;
     padding: 1rem;
+    border-radius: 10%;
 }
 
-@media screen and (max-width:1000px) {
-    .religion-section2{
-        width: 40%;
-    }
-}
+
 .religion-section3 .religion-section-col1{
     width: max-content;
     padding-top: 70rem;
@@ -205,3 +208,169 @@ body{
 .religion-section3 p {
     font-size: 28px;
 }
+/* xm */
+.religion-section4{
+    padding: 4rem var(--body-padding);
+    background-color:var(--primary);
+    display: flex;
+    align-items: cover;
+    margin-top: 20rem;
+    
+}
+
+.religion-section4 h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.religion-section4 p {
+    font-size: 28px;
+    right:10rem;
+    
+}
+
+.religion-section-col5{
+    min-width: 40rem;
+    padding-left: 40rem;
+}
+
+.religion-section-col3 img {
+    width: 40%;
+    position:absolute;
+    margin-top: -21rem;
+    right: 55rem;
+}
+.hero-religious1{
+    
+    width: 100%;
+    height: 150vh;
+    background-image: url("../../images/muslim.svg");
+    background-size: cover;
+    margin-top: 20rem;
+ 
+}    
+.religion-section-col6{
+     padding-top: 20rem;
+     margin-left: 4rem;
+     max-width: 60rem;
+}.religion-section-col6 h2{
+    font-weight: bold;
+    font-size: 38px;
+    color: #FFFFFF;
+    
+}
+
+.religion-section-col6 p {
+    font-size: 28px;
+    max-width: auto;
+    color: #FFFFFF;
+ 
+}
+
+
+.religion-section7{
+    margin:10rem var(--body-padding);
+    padding:5rem 5rem;
+    margin-left: 50rem;
+     background-color:var(--primary);
+    display:flex;
+    align-items: right;
+    margin-top: 10rem;
+    border-radius: 20%;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+.religion-section8 h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.religion-section8 p {
+    font-size: 28px;
+}
+
+.religion-section-col8{
+    max-width: 15rem;
+}
+.religion-section-col8{
+    margin:1rem 8rem;
+
+}
+
+.religion-section-col7 img {
+    width: 35%;
+    position: absolute;
+    margin-top: -10rem;
+    left: 18rem;
+}
+
+.footer{
+    background-color: var(--footer-color1);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem var(--body-padding);
+}
+
+.footer-left{
+    color: black;
+}
+
+.footer-left h2{
+    margin-bottom: 1rem;
+}
+
+.footer-left-col{
+    margin-right: 10rem;
+}
+.footer-left-col ul{
+    font-weight: 500;
+    
+    
+}
+
+.footer-left-link{
+    display: flex;
+}
+
+
+.footer-left-link li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.footer-left-link a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;;
+}
+
+.footer-right{
+    align-items: center;
+    display: flex;
+}
+
+.footer-right img {
+    width: 250px;
+}
+
+.bottom-footer{
+    background-color: var(--footer-color2);
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.top-btn{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 100;
+}
+
+.top-btn img{
+width: 5rem;
+
+}
+
+
