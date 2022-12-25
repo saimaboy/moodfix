@@ -1,0 +1,350 @@
+
+:root{
+    --primary:#86C8BC;
+    --background:#FFF6BD;
+    --body-padding:4rem;
+    --footer-color1:#6BA096;
+    --footer-color2:#507871;
+    --green:#20463F;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:var(--background);
+    color: black;
+}
+
+
+.nav{
+    width: 100%;
+    background-color: var(--green );
+    background-size: cover;
+}
+
+.nav-left img {
+    margin-top: 15px;
+    width: 128px;
+}
+
+.nav-content{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+
+.nav-content{
+    padding: 1rem var(--body-padding);
+    position: relative;
+}
+
+.nav-ul{
+    gap: 2rem;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: var(--primary);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .signin-btn{
+    background-color:rgba(206, 237, 199,0.3);
+    padding: 5px 2rem;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.page-title{
+    padding: 2rem var(--body-padding);
+}
+
+.page-title h1{
+    color: var(--green);
+}
+
+.page-title p{
+    font-weight: bold;
+    color: rgba(0,0,0,0.5);
+    align-items: center;
+    display: inline;
+}
+
+.page-title span::before{
+    content: " > ";
+}
+
+.page-title img {
+    width: 20px;
+}
+
+.page-title span::before{
+    content: " > ";
+}
+.hero-sports{
+    
+        width: 100%;
+        height: 150vh;
+        background-image: url("../../images/sport.svg");
+        background-size: cover;
+        margin-bottom: 5rem;
+}    
+
+/* budhu pilime thiyena thana */
+.sports-section{
+    padding: 6rem var(--body-padding);
+    background-color:var(--primary);
+    display: flex;
+    align-items: center;
+}
+
+.sports-section h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.sports-section p {
+    font-size: 28px;
+}
+
+.sports-section-col1{
+    max-width: 50rem;
+}
+.sports-section-col2{
+    margin-top: -1rem;
+
+}
+
+.sports-section-col2 img {
+    width: 40%;
+    position: absolute;
+    margin-top: -21rem;
+    right: 1rem;
+}
+/* llllllllllllllllllllllllllllllllllllll */
+
+.sports-section2{
+    padding: 10rem var(--body-padding);
+    background-color:var(--primary);
+    margin-top: -10rem;
+    
+}
+
+.sports-section2 .sports-section-col1{
+    background-color: var(--primary)
+
+    
+}
+.sports-section2 iframe{
+  padding-top: 1rem;
+}
+
+.sports-section2{
+    display: block;
+    margin: auto;
+    margin-top: 30rem;
+    
+}
+
+.sports-section2 .sports-section-col1{
+    padding: 1rem;
+
+}
+.sports-section2 .sports-section-col2{
+    margin:15rem;
+    margin-top: -40rem;
+
+}
+.sport-section-game{
+    width: 60rem;
+    margin: -7rem;
+    margin-left: 14rem;
+}
+/* lllllllllllllll */
+
+.sports-section3 .sports-section-col1{
+    width: 30rem;
+    padding-top: 14rem;
+    margin-left: 50rem;
+}
+.sports-section3 h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.sports-section3 p {
+    font-size: 28px;
+}
+ .sports-section-hero-after{
+    width: 50rem;
+    padding-bottom: 20rem;
+    margin-left: 20rem;
+
+}
+.sports-section-hero-after h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.sports-section-hero-after p {
+    font-size: 28px;
+}
+/* xm */
+
+
+
+
+.sports-section7{
+    margin:10rem var(--body-padding);
+    padding:5rem 5rem;
+    margin-left: 15rem;
+     background-color:var(--primary);
+    display:auto;
+    align-items: right;
+    margin-top: -2rem;
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+.sports-section8 h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.sports-section8 p {
+    font-size: 28px;
+}
+
+.sports-section-col8{
+    min-width: 15rem;
+}
+.sports-section-col8{
+    margin:5rem 5rem;
+
+}
+
+.sports-section-col7{
+    width: 35%;
+    position: absolute;
+    margin-top: 1rem;
+    left: 40rem;
+}
+
+.footer{
+    background-color: var(--footer-color1);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem var(--body-padding);
+}
+
+.footer-left{
+    color: black;
+}
+
+.footer-left h2{
+    margin-bottom: 1rem;
+}
+
+.footer-left-col{
+    margin-right: 10rem;
+}
+.footer-left-col ul{
+    font-weight: 550;
+    
+    
+}
+
+.footer-left-link{
+    display: flex;
+}
+
+
+.footer-left-link li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.footer-left-link a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;;
+}
+
+.footer-right{
+    align-items: center;
+    display: flex;
+}
+
+.footer-right img {
+    width: 250px;
+}
+
+.bottom-footer{
+    background-color: var(--footer-color2);
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.top-btn{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    z-index: 100;
+}
+
+.top-btn img{
+width: 5rem;
+
+}
+
+
