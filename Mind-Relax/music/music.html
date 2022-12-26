@@ -7,6 +7,10 @@
     <title>Music</title>
     <link rel="stylesheet" href="./music.css">
     <style> @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Poppins:wght@300;400;500;700&display=swap'); </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'><link rel="stylesheet" href="./style.css">
+    
     
 
 </head>
@@ -51,7 +55,6 @@
     </div>
     <!-- page title end -->
     <!-- hero start -->
-  
 
     <div class="hero-music" alt="" >
         <div class="music-section ">
@@ -89,15 +92,118 @@
               <button type="submit"><i class="fa fa-search"></i></button>
               </form> 
                 <div class="music-box">
+                    <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <defs>
+                          <symbol id="icon-cross" viewBox="0 0 32 32">
+                            <title>close</title>
+                            <path d="M31.7 25.7L22 16l9.7-9.7a1 1 0 0 0 0-1.4L27.1.3a1 1 0 0 0-1.4 0L16 10 6.3.3a1 1 0 0 0-1.4 0L.3 4.9a1 1 0 0 0 0 1.4L10 16 .3 25.7a1 1 0 0 0 0 1.4l4.6 4.6a1 1 0 0 0 1.4 0L16 22l9.7 9.7a1 1 0 0 0 1.4 0l4.6-4.6a1 1 0 0 0 0-1.4z"/>
+                          </symbol>
+                        </defs>
+                      </svg>
+                      
+                      <div class="page" data-modal-state="closed">
+                        <div class="container">
+                          <div class="card-slider">
+                            <div class="card-wrapper"><article class="card">
+                              <picture class="card__background">
+                                <img src="https://source.unsplash.com/random">
+                              </picture>
+                              <div class="card__category">
+                                consulta
+                              </div>
+                              <h3 class="card__title">Asesoría Angelical</h3>
+                              <div class="card__duration">
+                                Duración: 3 horas
+                              </div>
+                              </article></div>
+                            <div class="card-wrapper"><article class="card">
+                              <picture class="card__background">
+                                <img src="https://source.unsplash.com/random">
+                              </picture>
+                              <div class="card__category">
+                                consulta
+                              </div>
+                              <h3 class="card__title">Asesoría Angelical</h3>
+                              <div class="card__duration">
+                                Duración: 3 horas
+                              </div>
+                              </article></div>
+                            <div class="card-wrapper"><article class="card">
+                              <picture class="card__background">
+                                <img src="/images/avatars-000251337838-0vlzxc-t500x500.jpg">
+                              </picture>
+                              <div class="card__category">
+                                pop
+                              </div>
+                              <h3 class="card__title">Sanuka Wickramasingha</h3>
+                              <div class="card__duration">
+                                Duration: 3.5min
+                              </div>
+                              </article></div>
+                            <div class="card-wrapper"><article class="card">
+                              <picture class="card__background">
+                                <img src="https://source.unsplash.com/random">
+                              </picture>
+                              <div class="card__category">
+                                consulta
+                              </div>
+                              <h3 class="card__title">Asesoría Angelical</h3>
+                              <div class="card__duration">
+                                Duración: 3 horas
+                              </div>
+                              </article></div>
+                            <div class="card-wrapper"><article class="card">
+                              <picture class="card__background">
+                                <img src="https://source.unsplash.com/random">
+                              </picture>
+                              <div class="card__category">
+                                consulta
+                              </div>
+                              <h3 class="card__title">Asesoría Angelical</h3>
+                              <div class="card__duration">
+                                Duración: 3 horas
+                              </div>
+                              </article></div>
+                          </div>
+                        </div>
+                        <div class="overlay"></div>
+                        <div class="modal-wrapper">
+                          <div class="modal">
+                            <button class="modal__close-button" type="button">
+                              <svg class="icon icon-cross"><use xlink:href="#icon-cross"></use></svg>
+                            </button>
+                            <div class="modal__scroll-area">
+                              <header class="modal__header">
+                                <div class="card__background">
+                                  <img src="https://source.unsplash.com/random">
+                                </div>
+                                <div class="card__category">
+                                  consulta
+                                </div>
+                                <h1 class="card__title">Asesoría Angelical</h1>
+                                <div class="card__duration">
+                                  Duración: 3 horas
+                                </div>
+                              </header>
+                              <main class="modal__content">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo sint debitis? Dolorem est at voluptatum obcaecati tempore eaque perferendis. Totam at consectetur commodi porro atque eligendi rerum vero nam?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo sint debitis? Dolorem est at voluptatum obcaecati tempore eaque perferendis. Totam at consectetur commodi porro atque eligendi rerum vero nam?</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus quo sint debitis? Dolorem est at voluptatum obcaecati tempore eaque perferendis. Totam at consectetur commodi porro atque eligendi rerum vero nam?</p>
+                              </main>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- partial -->
+                        <script src='https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.3.1/web-animations.min.js'></script>
+                      <script src='https://cdnjs.cloudflare.com/ajax/libs/smooth-scrollbar/8.3.1/smooth-scrollbar.js'></script>
+                      <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+                      <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script><script  src="./script.js"></script>
 
-
-                
-                
-                
+                  </div>
+        
+            
                 </div>
-
-
-            </div>
 
 
         </div>
@@ -140,6 +246,9 @@
         <!-- foonter end -->
 
         <div class="top-btn">
+            <audio src="/images/WhatsApp Audio 2022-12-27 at 00.31.37.mpeg" controls>
+                <p>If you are reading this, it is because your browser does not support the audio element.</p>
+                    </audio>
             <img src="../../images/quick q button.svg" alt="">
         </div>
 
