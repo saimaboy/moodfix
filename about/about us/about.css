@@ -127,26 +127,21 @@ body{
     width: 20px;
 }
 /* fafafafafafa */
-
-html{
+.NSBM{
     scroll-behavior: smooth;
   }
-  
-  body{
-      background: #fff6bd;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      width: 100vw;
-  }
-  
-  h1{
-      text-align: center;
-      color: #20463f;
-      margin: 10px 0px;
-  }
-  
+
+.NSBM{
+	background: #fff6bd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+    color: #fff;
+    margin-bottom: 5rem;
+}
+
   .form-box{
       display: flex;
       flex-direction: column;
@@ -157,46 +152,34 @@ html{
       text-align: center;
       background: #20463f;
       border-radius: 25px;
-      height: 70vh;
-      width: 25vw;
+      height:100vh;
+      width: 70rem;
+
+
+      
   }
   .form-box img{
-      height: 70px;
+  
+
+    height: 100rem;
       padding: 0px 0px 10px 0px;
   }
-  
   .form-box .input-div{
-      padding: 10px 0px;
-      width: auto;
-      height: auto;
-  }
-  .form-box .input-div label{
-      text-align: left;
-  }
-  .form-box .input-div input{
-      background: #ebebeb;
-      margin: 0px 0px 0px 0px;
-      border: 2px solid #000;
-      transition: 0.5s;
-  }
-  .form-box .input-div input:focus{
-      background: #fff;
-      border: 2px solid #a80000;
-      transition: 0.5s;
-  }
-  .form-box .input-div textarea{
-      width: 20vw;
-      height: 15vh;
-      outline: none;
-      padding: 10px 25px;
-      border-radius: 20px;
-      color: #000;
-      background: #ebebeb;
-      margin: 0px 0px 0px 0px;
-      border: 2px solid #000;
-      resize: none;
-      transition: 0.5s;
-  }
+	padding: 10px 0px;
+	width: auto;
+	height: auto;
+}
+.form-box .input-div label{
+	text-align: left;
+}
+.form-box .input-div input{
+	background: #ebebeb;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #000;
+	transition: 0.5s;
+}
+  
+  
   .form-box .input-div textarea:focus{
       background: #fff;
       border: 2px solid #a80000;
@@ -211,10 +194,6 @@ html{
       color: #000;
   }
   
-  .forgot-msg{
-      margin: 0px 0px;
-      font-size: 12px;
-  }
   .button{
       margin: 15px 0px 30px 0px;
   }
@@ -255,7 +234,8 @@ html{
       }
       
   }
-/* gagagagga */
+/* hHAHAHAHAHAHAHA */
+
 .footer{
     background-color: var(--footer-color1);
     display: flex;
@@ -322,6 +302,9 @@ html{
 .top-btn img{
 width: 5rem;
 
+}
+.plyer{
+    
 }
 
 

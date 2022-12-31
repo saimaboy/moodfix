@@ -139,6 +139,7 @@ body{
 	height: 100vh;
 	width: 100vw;
     color: #fff;
+    margin-bottom: 5rem;
 }
 
   .form-box{
@@ -153,6 +154,7 @@ body{
       border-radius: 25px;
       height:100vh;
       width: 70rem;
+      
   }
   .form-box img{
       height: 70px;
