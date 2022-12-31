@@ -2,8 +2,9 @@
 
 *{
 	margin: 0;
-	padding: 0;
-	font-family: 'Nunito', sans-serif;
+    padding: 0;
+    font-family:  'Fredoka', sans-serif;
+    box-sizing: border-box;
 	color: #fff;
 }
 
@@ -56,10 +57,30 @@ h1{
 	background: #ebebeb;
 	margin: 0px 0px 0px 0px;
 	border: 2px solid #000;
+	transition: 0.5s;
 }
 .form-box .input-div input:focus{
 	background: #fff;
 	border: 2px solid #a80000;
+	transition: 0.5s;
+}
+.form-box .input-div textarea{
+	width: 20vw;
+	height: 15vh;
+	outline: none;
+	padding: 10px 25px;
+	border-radius: 20px;
+	color: #000;
+	background: #ebebeb;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #000;
+	resize: none;
+	transition: 0.5s;
+}
+.form-box .input-div textarea:focus{
+	background: #fff;
+	border: 2px solid #a80000;
+	transition: 0.5s;
 }
 
 .form-box input{
@@ -106,6 +127,11 @@ h1{
 
 	.form-box input{
 		width: 50vw;
+	}
+
+	.form-box .input-div textarea{
+		width: 50vw;
+		height: 15vh;
 	}
 	
 }

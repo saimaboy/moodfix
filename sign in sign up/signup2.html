@@ -8,6 +8,7 @@
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
 	<style> @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&family=Poppins:wght@300;400;500;700&display=swap'); </style>
 </head>
 
@@ -17,28 +18,25 @@
 
 		<h1>Sign Up</h1>
 		<div class="form-box">
-			<h3>Hi! nice to meet you.</h3>
+	
 			<form method="post" action="">
 				<div class="input-div">
-					<label>Username:</label><br>
-					<input type="text" placeholder="Username" name="email-username" required>
+					<input type="image" name="pro-pic">
+					<label>Profile Picture:</label><br>
+					
 				</div>
 				<div class="input-div">
-					<label>Age:</label><br>
-					<input type="tel" maxlength="3" placeholder="Age" name="age" required>
-				</div>
-				<div class="input-div">
-					<label>Password:</label><br>
-					<input type="password" placeholder="Password" name="password" required><br>
+					<label>About:</label><br>
+					<textarea placeholder="Tell us a little bit about you" class="about" name="about"></textarea><br>
 				</div>
 				<div class="button">
-                <input onclick="document.location='/sign in sign up/signup2.html'" type="submit" value="NEXT">
-			</div>
+					<input onclick="document.location='/sign in sign up/welcome.html'" type="submit" value="NEXT">
+				</div>
+			
 			</form>
-			<p class="status">Existing User? <a href="/sign in sign up/index.html">Sign In</a></p>
 			<img src="moodfix logo.webp">
 		</div>
-
+		
 	</div>
 
 	<script src="script.js"></script>
