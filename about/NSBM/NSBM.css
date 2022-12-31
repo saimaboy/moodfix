@@ -127,6 +127,108 @@ body{
     width: 20px;
 }
 /* fafafafafafa */
+.NSBM{
+    scroll-behavior: smooth;
+  }
+
+.NSBM{
+	background: #fff6bd;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+    color: #fff;
+}
+
+  .form-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 25px 25px;
+      font-weight: 600;
+      text-align: center;
+      background: #20463f;
+      border-radius: 25px;
+      height:100vh;
+      width: 70rem;
+  }
+  .form-box img{
+      height: 70px;
+      padding: 0px 0px 10px 0px;
+  }
+  .form-box .input-div{
+	padding: 10px 0px;
+	width: auto;
+	height: auto;
+}
+.form-box .input-div label{
+	text-align: left;
+}
+.form-box .input-div input{
+	background: #ebebeb;
+	margin: 0px 0px 0px 0px;
+	border: 2px solid #000;
+	transition: 0.5s;
+}
+  
+  
+  .form-box .input-div textarea:focus{
+      background: #fff;
+      border: 2px solid #a80000;
+      transition: 0.5s;
+  }
+  
+  .form-box input{
+      width: 20vw;
+      outline: none;
+      padding: 10px 25px;
+      border-radius: 20px;
+      color: #000;
+  }
+  
+  .button{
+      margin: 15px 0px 30px 0px;
+  }
+  .button input{
+      background: transparent;
+      border: 1px solid #fff6bd;
+      color: #fff6bd;
+      transition: 0.5s;
+      width: auto;
+  }
+  .button input:hover{
+      background: #fff6bd;
+      border: 1px solid #fff;
+      color: #000;
+      cursor: pointer;
+      transition: 0.5s;
+  }
+  
+  .status{
+      font-size: 14px;
+  }
+  
+  
+  @media screen and (max-width: 912px) {
+  
+      .form-box{
+          height: 60vh;
+          width: 70vw;
+      }
+  
+      .form-box input{
+          width: 50vw;
+      }
+  
+      .form-box .input-div textarea{
+          width: 50vw;
+          height: 15vh;
+      }
+      
+  }
+/* hHAHAHAHAHAHAHA */
 
 .footer{
     background-color: var(--footer-color1);
