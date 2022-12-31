@@ -1,57 +1,60 @@
+let slides = document.querySelectorAll('.mySlides');
+        let dots = document.querySelectorAll('.dot');
+        let slideIndex = 1;
+        let timeoutID;
 
-jQuery(document).ready(function(){
- var $ = jQuery,
-     $navButtons = $(".btn");
- 
- slideFunctions();
+        const showSlides = (n) => {
+            let i;
 
- function slideFunctions(){
-  var $slideShow      =  $(".slide-show"),
-      $slideImg       =  $(".slide-img"),
-      $slideItem      =  $(".slide-item"),
-      $indicator      =  $("[rol='low-indicator']"),
-      slideLoopCount  =  0,
-      slideOffset     =  0;
-        
-    const SLIDE_TIME = 5000;
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
 
-    initSlider();
-    
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
 
- // functions
-  function initSlider(){
-   $navButtons.on('mouseover', blurSlider);
-   $navButtons.on('mouseleave', quitSliderBlur);
-   changeSlide();
-  }
+            for (i = 0; i < slides.length; i++) {
+                dots[i].setAttribute('class', 'dot');
+            }
 
- function changeSlide(){
-   setInterval(change, SLIDE_TIME);
-   $indicator.eq(slideLoopCount).animate({width:"100%"}, SLIDE_TIME);
 
-      function change(){
-        if(slideLoopCount < $slideImg.length - 1){
-          slideLoopCount++;
-          slideOffset -= 100;
-          $slideShow.animate({left: slideOffset + "vw"}, 1000);
-          $indicator.eq(slideLoopCount).animate({width:"100%"}, SLIDE_TIME);
-        }else{
-          slideLoopCount = 0 ;
-          slideOffset = 0;
-          $slideShow.animate({left: slideOffset}, 1000);
-          $indicator.animate({width:"1%"}, 200);
-          $indicator.eq(slideLoopCount).animate({width:"100%"}, SLIDE_TIME);
-        }         
-      }
-    }
+            slides[slideIndex - 1].style.display = 'block';
+            dots[slideIndex - 1].setAttribute('class', 'dot active');
+            clearTimeout(timeoutID);
+            timeoutID = setTimeout(autoSlides, 2000);
+        };
 
-    function blurSlider(){
-     $slideShow.addClass("blur-slide");
-    }
+        const plusSlides = (n) => {
+            showSlides(slideIndex += n);
+        };
 
-    function quitSliderBlur(){
-     $slideShow.removeClass("blur-slide");
-    }
-  }
-  //  end slidefunctions
-});
+        const currentSlide = (n) => {
+            showSlides(slideIndex = n);
+        };
+
+        function autoSlides() {
+            let i;
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                dots[i].setAttribute('class', 'dot');
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].setAttribute('class', 'dot active');
+            timeoutID = setTimeout(autoSlides, 2000);
+        }
+
+        autoSlides();
