@@ -135,7 +135,7 @@ body{
     
         width: 100%;
         height: 150vh;
-        background-image: url("../../images/music1.svg");
+        background-image: url("/images/music\ 1.jpg");
         background-size: cover;
         margin-bottom: 5rem;
         color: #FFFFFF;
@@ -175,7 +175,7 @@ body{
 .backdrop{
     width: 100%;
     height: 150vh;
-    background-image: url("../../images/music2.svg");
+    background-image: url("/images/music2.jpg");
     background-size: cover;
     margin-bottom: 1rem;
     color: #FFFFFF;

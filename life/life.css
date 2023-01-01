@@ -128,26 +128,32 @@
   .page-title span::before {
     content: " > ";
   }
-  .hero-music.sec1 {
+.lv{
+ margin-top: -38rem;
+ margin-left: 18rem;
+ padding-bottom: 10rem;
+}
+
+  .hero-music.sec1 img{
     width: 100%;
     height: 100vh;
-    background-image: url("../images/life1.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 5rem;
-    color: #ffffff;
+   
+   
+  
   }
   
   .hero-music.sec2 {
       width: 100%;
       height: 100vh;
-      background-image: url("../images/lifeimg2.jpg");
+      background-image: url("/images/life\ 2.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       margin-bottom: 5rem;
       color: #000;
       margin: auto;
-      margin-bottom: 8rem;
+  
     }
   
   /* lllllllllllllll */
@@ -166,9 +172,9 @@
     font-size: 28px;
   }
   .music-section-hero-after {
-    width: 50rem;
+    width: 75rem;
     padding-bottom: 5rem;
-    margin-left: 20rem;
+    margin-left: 11rem;
   }
   .music-section-hero-after h2 {
     font-weight: bold;
@@ -176,6 +182,19 @@
   }
   
   .music-section-hero-after p {
+    font-size: 28px;
+  }
+  .music-section-hero-after-who {
+    width: 75rem;
+    padding-bottom: -1rem;
+    margin-left: 11rem;
+  }
+  .music-section-hero-after-who h2 {
+    font-weight: bold;
+    font-size: 38px;
+  }
+  
+  .music-section-hero-after-who p {
     font-size: 28px;
   }
   /* xm */
