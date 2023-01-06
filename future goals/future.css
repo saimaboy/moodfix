@@ -126,111 +126,207 @@ body{
 .page-title img {
     width: 20px;
 }
-/* fafafafafafa */
-.NSBM{
-    scroll-behavior: smooth;
-  }
+ 
+.art-section-col{
+    width: 30rem;
+    padding-top: 9rem;
+    margin-left: 10rem;
+    
+}
+.art-section-col h2{
+    font-weight: bold;
+    font-size: 38px;
+}
 
-.NSBM{
-	background: #fff6bd;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100vh;
-	width: 100vw;
-    color: #fff;
+.art-section-col p{
+    font-size: 28px;
+}
+/* budhu pilime thiyena thana */
+.art-section{
+    padding: 6rem var(--body-padding);
+    background-color:var(--primary);
+    display: flex;
+    align-items: center;
+}
+
+.art-section h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.art-section p {
+    font-size: 28px;
+}
+
+.art-section-col1{
+    max-width: 50rem;
+}
+.art-section-col2{
+    margin-top: -1rem;
+
+}
+
+.art-section-col2 img {
+    width: 40%;
+    position: absolute;
+    margin-top: -21rem;
+    right: 1rem;
+}
+
+
+.art-section1 .art-section-col1{
+    width: max-content;
+    padding-top: 30rem;
+    margin-left: 15rem;
+}
+.art-section1 h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.art-section1 p {
+    font-size: 28px;
+}
+
+/* hahahahahah */
+
+
+.art-section-col5{
+    min-width: 40rem;
+    padding-left: 40rem;
+}
+
+.art-section-col3 img {
+    width: 40%;
+    position:absolute;
+    margin-top: -31rem;
+    right: 55rem;
+}
+
+/* hahahahahahahah */
+* {
+    box-sizing: border-box;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.back-img{
+    position: relative;
+    width: auto;
+    background-image:url(/images/artbc.jpg) ;
+    padding-top: 5rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 
-  .form-box{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 25px 25px;
-      font-weight: 600;
-      text-align: center;
-      background: #20463f;
-      border-radius: 25px;
-      height:100vh;
-      width: 57rem;
-      
-  }
-  .form-box img{
-      height: 70px;
-      padding: 0px 0px 10px 0px;
-  }
-  .form-box .input-div{
-	padding: 10px 0px;
-	width: auto;
-	height: auto;
+.mySlides {
+    display: none;
 }
-.form-box .input-div label{
-	text-align: left;
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
 }
-.form-box .input-div input{
-	background: #ebebeb;
-	margin: 0px 0px 0px 0px;
-	border: 2px solid #000;
-	transition: 0.5s;
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
-  
-  
-  .form-box .input-div textarea:focus{
-      background: #fff;
-      border: 2px solid #a80000;
-      transition: 0.5s;
-  }
-  
-  .form-box input{
-      width: 20vw;
-      outline: none;
-      padding: 10px 25px;
-      border-radius: 20px;
-      color: #000;
-  }
-  
-  .button{
-      margin: 15px 0px 30px 0px;
-  }
-  .button input{
-      background: transparent;
-      border: 1px solid #fff6bd;
-      color: #fff6bd;
-      transition: 0.5s;
-      width: auto;
-  }
-  .button input:hover{
-      background: #fff6bd;
-      border: 1px solid #fff;
-      color: #000;
-      cursor: pointer;
-      transition: 0.5s;
-  }
-  
-  .status{
-      font-size: 14px;
-  }
-  
-  
-  @media screen and (max-width: 912px) {
-  
-      .form-box{
-          height: 60vh;
-          width: 70vw;
-      }
-  
-      .form-box input{
-          width: 50vw;
-      }
-  
-      .form-box .input-div textarea{
-          width: 50vw;
-          height: 15vh;
-      }
-      
-  }
-/* hHAHAHAHAHAHAHA */
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* ddjdjdjdjdjdj */
+
+
+.art-section-col4 img{
+    top: 30rem;
+    bottom: 50rem;
+    width: 105%;
+
+}
+
+.art-section h2{
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.art-section1 p {
+    font-size: 28px;
+}
 
 .footer{
     background-color: var(--footer-color1);
@@ -288,6 +384,7 @@ body{
     color: white;
 }
 
+
 .top-btn{
     position: fixed;
     right: 1rem;
@@ -298,9 +395,6 @@ body{
 .top-btn img{
 width: 5rem;
 
-}
-.plyer{
-    
 }
 
 

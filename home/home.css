@@ -112,8 +112,8 @@ body{
 }
 
 .hero p{
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 40px;
+    font-weight:600;
     max-width: 70%;
 }
 .hero-signin-btn{
@@ -149,10 +149,15 @@ padding: 10rem var(--body-padding);
 
 }
 
-.home-about-contant h1{
-font-weight: bold;
-font-size: 48px;
+.home-about-contant p{
+font-weight: 400;
+font-size: 28px;
 }
+
+.home-about-contant h1{
+    font-weight: bold;
+    font-size: 48px;
+    }
 .get-item p{
     font-weight: bold;
     font-size: 20px;

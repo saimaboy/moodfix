@@ -220,6 +220,14 @@ body{
     position: relative;
     margin: auto;
 }
+.back-img{
+    position: relative;
+    width: auto;
+    background-image:url(/images/artbc.jpg) ;
+    padding-top: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
 
 .mySlides {
     display: none;
@@ -382,6 +390,7 @@ body{
     padding: 2rem 0;
     color: white;
 }
+
 
 .top-btn{
     position: fixed;

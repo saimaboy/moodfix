@@ -295,20 +295,36 @@ form.search::after {
   background-color: #86c8bc;
   width: 18rem;
   padding: 15px 15px 60px 15px;
-  border-radius: 2rem;
+  border-radius: 50px;
+  margin: auto;
+}
+.card1 {
+  position: relative;
+  background-color: #FFD4B2;
+  width: 18rem;
+  padding: 15px 15px 60px 15px;
+  border-radius: 50px;
   margin: auto;
 }
 
 .card img {
   width: 100%;
+  border-radius: 50px;
 }
-
+.card1 img {
+  width: 100%;
+  border-radius: 50px;
+}
 .card p {
   font-weight: bold;
   text-align: center;
   padding-top: 3rem;
 }
-
+.card1 p {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3rem;
+}
 .card-list {
   display: grid;
   grid-template-columns: auto auto;
