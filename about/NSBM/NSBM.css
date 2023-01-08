@@ -302,5 +302,17 @@ width: 5rem;
 .plyer{
     
 }
-
+.mid-logo {
+   margin-top: 15rem;
+    margin-left:35rem;
+    position: absolute;
+  }
+  
+  
+  .mid-logo img { 
+    width: 100%;
+    height: auto;
+    opacity: 0.3;
+   
+  }
 

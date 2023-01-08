@@ -333,3 +333,16 @@ form.search::after {
   margin: auto;
   padding-bottom: 10rem;
 }
+.mid-logo {
+  position:fixed;
+  margin-left:37rem;
+
+}
+
+
+.mid-logo img { 
+  width: 80%;
+  height: auto;
+  opacity: 0.5;
+ 
+}

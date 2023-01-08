@@ -1,6 +1,6 @@
 
 :root{
-    --primary:#CEEDC7;
+    --primary:#86C8BC;
     --background:#FFF6BD;
     --body-padding:4rem;
     --footer-color1:#6BA096;
@@ -126,207 +126,54 @@ body{
 .page-title img {
     width: 20px;
 }
- 
-.art-section-col{
-    width: 30rem;
-    padding-top: 9rem;
-    margin-left: 10rem;
+
+.page-title span::before{
+    content: " > ";
+}
+.hero-sports{
     
-}
-.art-section-col h2{
-    font-weight: bold;
-    font-size: 38px;
-}
+        width: 100%;
+        height: 100vh;
+        background-image: url("/images/future\ goals\ 2.jpg");
+        background-size: cover;
+        margin-bottom: 5rem;
+}    
 
-.art-section-col p{
-    font-size: 28px;
-}
-/* budhu pilime thiyena thana */
-.art-section{
-    padding: 6rem var(--body-padding);
-    background-color:var(--primary);
-    display: flex;
-    align-items: center;
-}
 
-.art-section h2{
-    font-weight: bold;
-    font-size: 38px;
-}
 
-.art-section p {
-    font-size: 28px;
-}
-
-.art-section-col1{
+.sports-section-col{
     max-width: 50rem;
 }
-.art-section-col2{
-    margin-top: -1rem;
-
+.sports-section .sports-section-col{
+    width: 30rem;
+    padding-top: 14rem;
+    margin-left: 10rem;
+    color: #fff;
 }
-
-.art-section-col2 img {
-    width: 40%;
-    position: absolute;
-    margin-top: -21rem;
-    right: 1rem;
-}
-
-
-.art-section1 .art-section-col1{
-    width: max-content;
-    padding-top: 30rem;
-    margin-left: 15rem;
-}
-.art-section1 h2{
+.sports-section h2{
     font-weight: bold;
     font-size: 38px;
 }
 
-.art-section1 p {
+.sports-section p {
     font-size: 28px;
 }
-
-/* hahahahahah */
-
-
-.art-section-col5{
-    min-width: 40rem;
-    padding-left: 40rem;
-}
-
-.art-section-col3 img {
-    width: 40%;
-    position:absolute;
-    margin-top: -31rem;
-    right: 55rem;
-}
-
-/* hahahahahahahah */
-* {
-    box-sizing: border-box;
-}
-
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
-}
-.back-img{
-    position: relative;
-    width: auto;
-    background-image:url(/images/artbc.jpg) ;
-    padding-top: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-}
-
-.mySlides {
-    display: none;
-}
-
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-}
-
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-
-.prev:hover,
-.next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
-.text {
-    color: #f2f2f2;
-    font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 8px;
-    width: 100%;
-    text-align: center;
-}
-
-.numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-
-.dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-    background-color: #717171;
-}
-
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-
-@-webkit-keyframes fade {
-    from {
-        opacity: .4;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes fade {
-    from {
-        opacity: .4;
-    }
-    to {
-        opacity: 1;
-    }
-}
-/* ddjdjdjdjdjdj */
-
-
-.art-section-col4 img{
-    top: 30rem;
-    bottom: 50rem;
-    width: 105%;
+ .sports-section-hero-after{
+    width: 50rem;
+    padding-bottom: 20rem;
+    margin-left: 20rem;
 
 }
-
-.art-section h2{
+.sports-section-hero-after h2{
     font-weight: bold;
     font-size: 38px;
 }
 
-.art-section1 p {
+.sports-section-hero-after p {
     font-size: 28px;
 }
+
+
 
 .footer{
     background-color: var(--footer-color1);
@@ -383,7 +230,6 @@ body{
     padding: 2rem 0;
     color: white;
 }
-
 
 .top-btn{
     position: fixed;

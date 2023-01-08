@@ -206,11 +206,17 @@ body {
   width: 100%;
   border-radius: 50px;
 }
+.card h3 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1rem;
+ 
+}
 
 .card p {
   font-weight: bold;
   text-align: center;
-  padding-top: 3rem;
+
 }
 
 .card-list {
@@ -220,4 +226,16 @@ body {
   max-width: 60rem;
   margin: auto;
   padding-bottom: 10rem;
+}
+.mid-logo {
+  position:fixed;
+  margin-left:35rem;
+}
+
+
+.mid-logo img { 
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+ 
 }
